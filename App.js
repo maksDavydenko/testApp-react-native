@@ -1,18 +1,12 @@
 import React from 'react';
-import {ScrollView, StyleSheet, Text, View} from 'react-native';
+import {StyleSheet, View} from 'react-native';
 import GalleryList from './components/GalleryList';
 import Header from './components/Header';
 export default function App() {
   return (
       <View>
-
      <Header/>
-      {/*<ScrollView>*/}
-    {/*<View style={styles.container}>*/}
-      {/*<Text>hellow world</Text>*/}
       <GalleryList/>
-    {/*</View>*/}
-      {/*</ScrollView>*/}
       </View>
   );
 }
